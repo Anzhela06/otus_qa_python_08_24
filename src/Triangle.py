@@ -46,6 +46,4 @@ class Triangle(Figure):
 
 
 t = Triangle (3, 3, 1)
-print(t.get_perimeter)
-print(t.get_area)
-print(t.add_area)
+

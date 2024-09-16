@@ -42,9 +42,3 @@ class Circle(Figure):
     def get_perimeter(self):
         return 2 * math.pi * self.side_r
 
-
-
-
-c = Circle (0)
-print(c.get_perimeter)
-print(c.get_area)

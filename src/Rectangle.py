@@ -41,6 +41,4 @@ class Rectangle(Figure):
     def get_perimeter(self):
         return (self.side_a + self.side_b) * 2
 
-r = Rectangle (2, 4)
-print(r.get_perimeter)
-print(r.area)
+

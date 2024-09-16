@@ -48,7 +48,5 @@ class Square(Rectangle):
             raise ValueError("Square sides can't be less or equals to 0")
         super().__init__(side_a, side_a)
 
-s = Square (8)
-print(s.area)
 
 
