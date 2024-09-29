@@ -1,5 +1,5 @@
 import math
-from figure import Figure
+from src.figure import Figure
 
 
 
@@ -7,7 +7,7 @@ class Circle(Figure):
 
     def __init__(self, side_r):
         if side_r <=0 :
-            raise ValueError("Radius can't be less or equals to 0")
+            raise ValueError("Radius can't be less or equal to 0")
 
         self.side_r = side_r
 
