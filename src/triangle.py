@@ -7,7 +7,7 @@ class Triangle(Figure):
         if side_a <= 0 or side_b <=0 :
             raise ValueError("Rectangle sides can't be less or equals to 0")
         if side_a == side_b and side_b == side_c :
-            print ("Равносторонний треугольник")
+            raise ValueError ("Равносторонний треугольник")
 
         self.side_a = side_a
         self.side_b = side_b
